@@ -24,7 +24,7 @@ public class Ticket {
 	
 	private String title;
 	
-	private String number;
+	private Integer number;
 	
 	private StatusEnum status;
 	
@@ -72,11 +72,11 @@ public class Ticket {
 		this.title = title;
 	}
 
-	public String getNumber() {
+	public Integer getNumber() {
 		return number;
 	}
 
-	public void setNumber(String number) {
+	public void setNumber(Integer number) {
 		this.number = number;
 	}
 
